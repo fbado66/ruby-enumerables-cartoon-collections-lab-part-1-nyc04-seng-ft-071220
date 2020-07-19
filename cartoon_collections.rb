@@ -14,9 +14,8 @@ def list_dwarves(array)
   
   
   total = 1
-array.each do |element|
-  p "#{total}. #{element}"
-    total += 1
-  end
-
+    array.each do |element|
+      p "#{total}. #{element}"
+      total += 1
+    end
 end
