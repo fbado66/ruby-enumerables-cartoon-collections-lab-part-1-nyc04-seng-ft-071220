@@ -13,7 +13,7 @@ def list_dwarves(array)
   # Print a numbered list of each element
   
   
-  total = 0
+  total = 1
 array.each do |element|
   p "#{total}. #{element}"
     total += 1
